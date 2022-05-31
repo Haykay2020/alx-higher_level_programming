@@ -24,7 +24,7 @@ int check_cycle(listint_t *list)
 		if (list == p2)
 		{	
 			list = prev;
-			pev =  p2;
+			prev =  p2;
 			while (1)
 			{
 				p2 = prev;
